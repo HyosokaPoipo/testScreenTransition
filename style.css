@@ -1,0 +1,38 @@
+body {
+    background-color: antiquewhite;    
+}
+
+.mydiv {
+    width: 30%;
+    transition: all 2s ease;
+}
+
+@media (min-width: 500px) and (max-width: 850px) {
+    body {
+        background-color: rgb(14, 177, 241);
+        transition: all 4s ease;
+    }
+
+    .mydiv {
+        width: 50%;
+    }
+}
+
+@media (min-width: 850px) and (max-width: 950px){
+    body {        
+        background-color: green;
+        transition: all 2s ease;
+    }
+    .mydiv {
+        transition: all 2s ease;
+    }
+}
+
+
+
+@media (min-width: 950px) {
+    body {        
+        background-color: rgb(224, 56, 168);
+        transition: all 2s ease;
+    }
+}
